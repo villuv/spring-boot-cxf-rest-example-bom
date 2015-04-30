@@ -1,4 +1,3 @@
 #!/bin/bash
 cd $OPENSHIFT_REPO_DIR
-export M2_REPO=$OPENSHIFT_DATA_DIR/.m2
-mvn package -DskipTests=true
+mvn -s .openshift/settings.xml package -DskipTests=true
