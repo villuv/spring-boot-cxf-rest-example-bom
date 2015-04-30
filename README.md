@@ -20,6 +20,6 @@ Start the application:
       
 Test it:
 	
-  $ curl "127.0.0.1:8080/example/hello"
+	$ curl "127.0.0.1:8080/example/hello"
 	$ curl "127.0.0.1:8080/example/hello?greeting=Hey&name=dude"
 
